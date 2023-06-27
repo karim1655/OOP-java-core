@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.karim.exercises.arrays.TenRunTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-23T20:52:26" hostname="karim-linux" time="0.028">
+  <properties/>
+  <testcase name="tenRun()" classname="com.karim.exercises.arrays.TenRunTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
