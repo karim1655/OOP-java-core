@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a19664-4bf5-4366-8d13-c2f2d00a15ec" name="Changes" comment="In package arrays added:&#10;FizzBuzz.java&#10;CanBalance.java&#10;(and their relative tests)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/RemoveFirstTwoChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/RemoveFirstTwoCharsIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/RemoveFirstTwoCharsIfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/RemoveFirstTwoCharsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/ReverseTest.java" afterDir="false" />
+    <list default="true" id="30a19664-4bf5-4366-8d13-c2f2d00a15ec" name="Changes" comment="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckIntervalBetweenDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAlt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckLicencePlate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/DivisionSquared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/DuplicateChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/GoodAroundTheBeginning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/GoodAtTheBeginning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/RemoveFirstLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAltTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckLicencePlateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/DivisionSquaredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/DivisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/DuplicateCharsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/GoodAroundTheBeginningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/GoodAtTheBeginningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/RemoveFirstLastTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -19,14 +33,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/Concatenate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/Concatenate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.karim.exercises.arrays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.karim.exercises.arrays.CanBalanceTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/Concatenate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/Concatenate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +114,27 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.karim.exercises.strings" />
+      <recent name="com.karim.exercises.exceptions" />
       <recent name="com.karim.exercises.arrays" />
       <recent name="com.karim.exercises.functional" />
       <recent name="com.karim.exercises.generics" />
-      <recent name="com.karim.exercises.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf">
-    <configuration name="CanBalanceTest.canBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DuplicateCharsTest.duplicateChars">
+    <configuration name="GoodAtTheBeginning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.karim.exercises.strings.GoodAtTheBeginning" />
+      <module name="OOP-Karim.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karim.exercises.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateCharsTest.duplicateChars" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.arrays.CanBalanceTest.canBalance&quot;" />
+            <option value="&quot;com.karim.exercises.strings.DuplicateCharsTest.duplicateChars&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,7 +158,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTest.fizzBuzz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GoodAroundTheBeginningTest.goodAroundTheBeginning" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.arrays.FizzBuzzTest.fizzBuzz&quot;" />
+            <option value="&quot;com.karim.exercises.strings.GoodAroundTheBeginningTest.goodAroundTheBeginning&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +182,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GoodAtTheBeginningTest.goodAtTheBeginning" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +195,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf&quot;" />
+            <option value="&quot;com.karim.exercises.strings.GoodAtTheBeginningTest.goodAtTheBeginning&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,7 +206,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveFirstTwoCharsTest.removeFirstTwoChars" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveFirstLastTest.removeFirstLast" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,31 +219,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.RemoveFirstTwoCharsTest.removeFirstTwoChars&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="ReverseTest.reverse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.ReverseTest.reverse&quot;" />
+            <option value="&quot;com.karim.exercises.strings.RemoveFirstLastTest.removeFirstLast&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf" />
-        <item itemvalue="Gradle.RemoveFirstTwoCharsTest.removeFirstTwoChars" />
-        <item itemvalue="Gradle.ReverseTest.reverse" />
-        <item itemvalue="Gradle.CanBalanceTest.canBalance" />
-        <item itemvalue="Gradle.FizzBuzzTest.fizzBuzz" />
+        <item itemvalue="Gradle.DuplicateCharsTest.duplicateChars" />
+        <item itemvalue="Gradle.RemoveFirstLastTest.removeFirstLast" />
+        <item itemvalue="Gradle.GoodAroundTheBeginningTest.goodAroundTheBeginning" />
+        <item itemvalue="Gradle.GoodAtTheBeginningTest.goodAtTheBeginning" />
+        <item itemvalue="Application.GoodAtTheBeginning" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688231092197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)">
+      <option name="closed" value="true" />
+      <created>1688546823563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688546823563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +292,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In package arrays added:&#10;FizzBuzz.java&#10;CanBalance.java&#10;(and their relative tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="In package arrays added:&#10;FizzBuzz.java&#10;CanBalance.java&#10;(and their relative tests)" />
+    <MESSAGE value="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)" />
   </component>
 </project>
