@@ -6,11 +6,10 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 public class JustPrintParametrized {
-    public static <T> void justPrintList(List<T> list, Consumer<? super T> consumer) {
-        list.forEach(consumer);
+    public static <T> void justPrintList(List<T> list, Consumer<? super T> consumerThatPrints) {
+        list.forEach(consumerThatPrints);
     }
-
-    public static <K, V> void justPrintMap(Map<K, V> map, BiConsumer<? super K, ? super V> biConsumer) {
-        map.forEach(biConsumer);
+    public static <K,V> void justPrintMap(Map<K, V> map, BiConsumer<? super K, ? super V> biConsumerThatPrints) {
+        map.forEach(biConsumerThatPrints);
     }
 }

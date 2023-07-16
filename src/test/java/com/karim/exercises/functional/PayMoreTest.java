@@ -8,6 +8,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PayMoreTest {
+
     @Test
     void payMore() {
         Map<String, Double> fees = new HashMap<>(Map.of(

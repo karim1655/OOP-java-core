@@ -4,27 +4,301 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a19664-4bf5-4366-8d13-c2f2d00a15ec" name="Changes" comment="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckIntervalBetweenDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAlt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckLicencePlate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/CheckString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/DivisionSquared.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/DuplicateChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/GoodAroundTheBeginning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/GoodAtTheBeginning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/RemoveFirstLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAltTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckIntervalBetweenDatesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckLicencePlateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/CheckStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/DivisionSquaredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/exceptions/DivisionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/DuplicateCharsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/GoodAroundTheBeginningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/GoodAtTheBeginningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/RemoveFirstLastTest.java" afterDir="false" />
+    <list default="true" id="30a19664-4bf5-4366-8d13-c2f2d00a15ec" name="Changes" comment="Post exam commit.&#10;&#10;Added exercises made by me (while studying for the exam) in packages:&#10;- arrays&#10;- collections&#10;- functional&#10;- generics&#10;- strings&#10;(and their relative tests)&#10;&#10;Added directly from the teacher's repository (content updated to this commit date):&#10;- all readme(s) in the packages inside the exercises package&#10;- assets (package) (with books and slides)&#10;- resources (package)&#10;In exercises package:&#10;- examples (package)&#10;- nio (package)&#10;- threads (package)&#10;(these three packages don't have tests)">
+      <change afterPath="$PROJECT_DIR$/assets/books/Introduction to Programming Using Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/books/Java-Coding-Standard.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/books/Java-Coding-Standard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/books/Object Oriented vs Functional Programming.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/books/The Java Language Specification.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/books/UML Distilled.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E1 - Java From Functions to Objects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E2 - Java Basics.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E3 - Java Object Oriented.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E4 - Java Data Structures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E5 - Java Generic Data Structures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E6.1 - Java Functional Programming (Functional Streams).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E6.2 - Java Functional Programming (Functions).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E7 - Java Exceptions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E8.1 - Java IO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E8.2 - Java NIO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/E9 - Java Multi-Threading.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.1 - JavaFX (Scene Builder).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.2 - JavaFX (Model and TableView).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.3 - JavaFX (Interacting with the user).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.4 - JavaFX (CSS Styling).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.5 - JavaFX (Storing Data).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P1.6 - JavaFX (Charts).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P2 - Java Data Access (JDBC).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/P3 - Java Data Access (REST).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-array-example-object-reference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-array-example-primitive-types.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-building-and-running.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-compiled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-dont-comment-rewrite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-implicit-casting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-interpreted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-multidimensional-arrays.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-passing-parameters-objects.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-passing-parameters-objects2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-passing-parameters-primitive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-primitive-types.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-primitive-vs-reference-types.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/basics-program-files-classes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-arraylist-implementation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-balanced-tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-dequeue-interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-dequeue-methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-hash-table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-implementations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-interfaces.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-internals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-iterable-iterator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-linked-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-linkedlist-implementation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-list-interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-map-interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-queue-example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-queue-interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-queue-methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-resizable-array.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/collections-set-interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/exceptions-hierarchy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/functional-behaviour-parametrization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/functional-flatmap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/functional-pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-code-lines-per-kernel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-code-lines-per-product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-code-lines-per-space-mission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-code-quality-cartoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-dart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-dependency-inversion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-encapsulation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-inheritance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-issues-procedural-approach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-kotlin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-microservice-architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-monolithic-architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-object-oriented-approach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-polymorphism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-procedural-versus-object-oriented.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-software-costs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-the-past.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-the-present.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-typical-calling-tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-with-oop-structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/intro-without-oop-structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/io-inputstream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/io-outputstream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/io-reader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/io-writer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-add-labels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-add-menu-items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-anchor-pane-size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-button-group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-column-resize-policy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-column-texts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-custom-app-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-darktheme-personeditdialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-darktheme-rootlayout-final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-darktheme-rootlayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-default-app-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-first-run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-fit-to-parent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-grid-pane-layout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-handle-delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-javafx-hierarchy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-label-header-style.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-menu-actions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-menu-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-person-details-label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-person-edit-dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-resources-folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-scene-builder-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-set-controller-class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-set-label-fx-id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-set-tableview-fx-id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-show-statistics-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/javafx-wrap-in-borderpane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/jdbc-mapping-types.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/jdbc-networked-DBMS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/jdbc-software-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/jdbc-what-is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-documentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-http-request.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-http-response.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-microservices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-put-post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-software-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/rest-why.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-amdahl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-executor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-homer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-manager-workers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-producer-consumer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-start-end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/slides/images/threads-states.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/arrays/DeepCopy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/arrays/MoveZerosEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/arrays/SearchArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/arrays/Splitter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/Eratosthenes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/InvertMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/MorseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/RecurringChars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/RemoveDuplicates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/ValuesKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/WordAfterWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/WordFrequency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/CheckIntervalBetweenDates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAlt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/CheckLicencePlate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/CheckString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/Division.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/exceptions/DivisionSquared.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/PayOnAverage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/generics/MinMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/generics/PairSameType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/generics/PairUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/DuplicateChars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/EqualIsNot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/GoodAroundTheBeginning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/GoodAtTheBeginning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/RemoveFirstLast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/RemoveFirstTwoChars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/RemoveFirstTwoCharsIf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/strings/SumDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/five/ClickCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/lez20230511/Test$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/lez20230511/Test$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/lez20230511/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/one/First.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/lessons/lessons_/one/Second.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/arrays/DeepCopyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/arrays/MoveZerosEndTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/arrays/SearchArrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/arrays/SplitterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/EratosthenesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/IntersectionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/InvertMapTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/MorseCodeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/RecurringCharsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/RemoveDuplicatesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/ReverseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/ValuesKeysTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/WordAfterWordTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/collections/WordFrequencyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/CheckIntervalBetweenDatesAltTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/CheckIntervalBetweenDatesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/CheckLicencePlateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/CheckStringTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/DivisionSquaredTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/exceptions/DivisionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/JustPrintTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/PayOnAverageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/SquareFiveTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/DuplicateCharsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/GoodAroundTheBeginningTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/GoodAtTheBeginningTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/RemoveFirstLastTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/RemoveFirstTwoCharsIfTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/RemoveFirstTwoCharsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/ReverseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/SumDigitsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/strings/equalIsNotTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.karim.exercises.functional.PayOnAverageTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.karim.exercises.functional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.karim.exercises.functional.PayOnAverageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/DeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/SearchArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/Splitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/Eratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/InvertMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/MorseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/RecurringChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/ValuesKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/WordAfterWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/WordFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/BankExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/CheckPreemption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/CommandExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/Comparing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/CovariantArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/LambdaBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/LockingGranularity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/PrimitiveLiterals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/PrimitiveTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/RandomNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/SharedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/SpeedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/StartStopThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/StreamCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/StreamUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/SystemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/TerminalInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/TerminalOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/VectorSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/functional/FunctionalInterfaces01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/functional/FunctionalInterfaces02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/functional/FunctionalInterfaces03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/functional/FunctionalInterfaces04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/examples/functional/FunctionalInterfaces05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/exceptions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/PayOnAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/generics/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/generics/PairSameType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/generics/PairUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/generics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/CopyBinaryLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/CopyTextLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/FileAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/FileCopyMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/FileCreateDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/FileList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/PortableDesktopPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/ReadWriteBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/nio/ReadWriteText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/oop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/EqualIsNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/strings/SumDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/DayChangeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ParallelPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ProducerConsumerSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ProducerConsumerUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ScheduledExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/StartStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/threads/ThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/warmup/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/james-joyce-ulysses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/arrays/DeepCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/arrays/SearchArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/arrays/SplitterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/EratosthenesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/IntersectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/InvertMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/MorseCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/RecurringCharsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/RemoveDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/ReverseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/ValuesKeysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/WordAfterWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/collections/WordFrequencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/JustPrintTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/PayOnAverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/SquareFiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/SumDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/strings/equalIsNotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,10 +307,68 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/arrays/MoveZeroEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/DownSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/DownSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/Intersection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/Intersection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/SortAccount$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/SortAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/collections/SortAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/AllPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/AllPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/JustPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/JustPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/JustPrintParametrized.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/JustPrintParametrized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/NoTeen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/NoTeen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/NoYY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/NoYYZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/NoYYZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/OneTen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/OneTen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/PayMore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/PayMore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/SquareFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/SquareFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/ToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/ToString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/TwoTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/TwoTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/functional/Words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/five/ClickCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/lez20230511/Test$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/lez20230511/Test$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/lez20230511/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/one/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/karim/exercises/lessons/one/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/arrays/MoveZeroEndTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/NoTeenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/NoTeenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/NoYYTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/OneTenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/OneTenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/PayMoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/PayMoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/TwoTwoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/functional/TwoTwoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/lessonfive/ClickCounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/karim/exercises/lessonfive/ClickCounterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/MoveZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/arrays/MoveZerosEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/DownSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/DownSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/SortAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/collections/SortAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/AllPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/AllPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/JustPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/JustPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/JustPrintParametrized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/JustPrintParametrized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/NoTeen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/NoTeen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/NoYY.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/NoYYZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/NoYYZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/OneTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/OneTen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/PayMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/PayMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/SquareFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/SquareFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/ToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/ToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/TwoTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/TwoTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/exercises/functional/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/lessons/five/ClickCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/lessons/lessons_/five/ClickCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/lessons/lez20230511/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/lessons/lessons_/lez20230511/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/lessons/one/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/lessons/lessons_/one/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karim/exercises/lessons/one/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karim/lessons/lessons_/one/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/arrays/MoveZeroEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/arrays/MoveZerosEndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/NoTeenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/NoTeenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/NoYYTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/OneTenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/OneTenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/PayMoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/PayMoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/TwoTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/TwoTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/WordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/functional/WordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karim/exercises/lessonfive/ClickCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karim/exercises/lessonfive/ClickCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,21 +421,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/damor/IdeaProjects/OOP-java-core/src/main/java/com/karim/exercises/arrays&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/damor/IdeaProjects/OOP-java-core/src/main/java/com/karim/exercises/arrays",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\damor\IdeaProjects\OOP-java-core\src\main\java\com\karim\exercises\arrays" />
@@ -113,28 +445,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.karim.exercises.strings" />
-      <recent name="com.karim.exercises.exceptions" />
-      <recent name="com.karim.exercises.arrays" />
       <recent name="com.karim.exercises.functional" />
-      <recent name="com.karim.exercises.generics" />
+      <recent name="com.karim.exercises.collections" />
+      <recent name="com.karim.exercises.strings" />
+      <recent name="com.karim.exercises.arrays" />
+      <recent name="com.karim.exercises.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DuplicateCharsTest.duplicateChars">
-    <configuration name="GoodAtTheBeginning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.karim.exercises.strings.GoodAtTheBeginning" />
-      <module name="OOP-Karim.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karim.exercises.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuplicateCharsTest.duplicateChars" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PayOnAverageTest.payOnAverage">
+    <configuration name="PayOnAverageTest.payOnAverage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +466,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.DuplicateCharsTest.duplicateChars&quot;" />
+            <option value="&quot;com.karim.exercises.functional.PayOnAverageTest.payOnAverage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +477,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GoodAroundTheBeginningTest.goodAroundTheBeginning" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquareFiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +490,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.GoodAroundTheBeginningTest.goodAroundTheBeginning&quot;" />
+            <option value="&quot;com.karim.exercises.functional.SquareFiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,7 +501,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GoodAtTheBeginningTest.goodAtTheBeginning" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ToStringTest.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -195,7 +514,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.GoodAtTheBeginningTest.goodAtTheBeginning&quot;" />
+            <option value="&quot;com.karim.exercises.functional.ToStringTest.testToString&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,7 +525,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveFirstLastTest.removeFirstLast" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoTwoTest.twoTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +538,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.karim.exercises.strings.RemoveFirstLastTest.removeFirstLast&quot;" />
+            <option value="&quot;com.karim.exercises.functional.TwoTwoTest.twoTwo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.karim.exercises.functional.WordsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -243,11 +586,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DuplicateCharsTest.duplicateChars" />
-        <item itemvalue="Gradle.RemoveFirstLastTest.removeFirstLast" />
-        <item itemvalue="Gradle.GoodAroundTheBeginningTest.goodAroundTheBeginning" />
-        <item itemvalue="Gradle.GoodAtTheBeginningTest.goodAtTheBeginning" />
-        <item itemvalue="Application.GoodAtTheBeginning" />
+        <item itemvalue="Gradle.PayOnAverageTest.payOnAverage" />
+        <item itemvalue="Gradle.ToStringTest.testToString" />
+        <item itemvalue="Gradle.WordsTest" />
+        <item itemvalue="Gradle.SquareFiveTest" />
+        <item itemvalue="Gradle.TwoTwoTest.twoTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688546823563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="In package exceptions added:&#10;CheckIntervalBetweenDates.java&#10;CheckIntervalBetweenDatesAlt.java&#10;CheckLicencePlate.java&#10;CheckString.java&#10;Division.java&#10;DivisionSquared.java&#10;(and their relative tests)&#10;&#10;In package strings added:&#10;DuplicateChars.java&#10;GoodAroundTheBeginning.java&#10;GoodAtTheBeginning.java&#10;RemoveFirstLast.java&#10;(and their relative tests)">
+      <option name="closed" value="true" />
+      <created>1688837977629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688837977629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +644,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="In package arrays added:&#10;FizzBuzz.java&#10;CanBalance.java&#10;(and their relative tests)" />
     <MESSAGE value="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="In package strings added:&#10;Reverse.java&#10;RemoveFirstTwoChars.java&#10;RemoveFirstTwoCharsIf.java&#10;(and their relative tests)" />
+    <MESSAGE value="In package exceptions added:&#10;CheckIntervalBetweenDates.java&#10;CheckIntervalBetweenDatesAlt.java&#10;CheckLicencePlate.java&#10;CheckString.java&#10;Division.java&#10;DivisionSquared.java&#10;(and their relative tests)&#10;&#10;In package strings added:&#10;DuplicateChars.java&#10;GoodAroundTheBeginning.java&#10;GoodAtTheBeginning.java&#10;RemoveFirstLast.java&#10;(and their relative tests)" />
+    <MESSAGE value="Post exam commit.&#10;&#10;Added exercises made by me (while studying for the exam) in packages:&#10;- arrays&#10;- collections&#10;- functional&#10;- generics&#10;- strings&#10;(and their relative tests)&#10;&#10;Added directly from the teacher's repository (content updated to this commit date):&#10;- all readme(s) in the packages inside the exercises package&#10;- assets (package) (with books and slides)&#10;- resources (package)&#10;In exercises package:&#10;- examples (package)&#10;- nio (package)&#10;- threads (package)&#10;(these three packages don't have tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post exam commit.&#10;&#10;Added exercises made by me (while studying for the exam) in packages:&#10;- arrays&#10;- collections&#10;- functional&#10;- generics&#10;- strings&#10;(and their relative tests)&#10;&#10;Added directly from the teacher's repository (content updated to this commit date):&#10;- all readme(s) in the packages inside the exercises package&#10;- assets (package) (with books and slides)&#10;- resources (package)&#10;In exercises package:&#10;- examples (package)&#10;- nio (package)&#10;- threads (package)&#10;(these three packages don't have tests)" />
   </component>
 </project>

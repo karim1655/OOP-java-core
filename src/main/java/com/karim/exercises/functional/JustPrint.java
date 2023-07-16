@@ -5,10 +5,9 @@ import java.util.Map;
 
 public class JustPrint {
     public static <T> void justPrintList(List<T> list) {
-        list.forEach(element -> System.out.println("Hello " + element));
+        list.forEach((el) -> System.out.println("Hello " + el + "!"));
     }
-
-    public static <K, V> void justPrintMap(Map<K, V> map) {
-        map.forEach( (key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+    public static <K,V> void justPrintMap(Map<K, V> map) {
+        map.forEach((key, value) -> System.out.println("k:" + key + ", v:" + value));
     }
 }

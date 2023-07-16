@@ -1,6 +1,6 @@
 package com.karim.exercises.lessonfive;
 
-import com.karim.exercises.lessons.five.ClickCounter;
+import com.karim.lessons.lessons_.five.ClickCounter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

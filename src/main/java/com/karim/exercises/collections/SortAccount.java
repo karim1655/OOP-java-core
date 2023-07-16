@@ -58,12 +58,7 @@ public class SortAccount {
         });
     }
     public static void sortByDuePayment(List<Account> accounts) {
-        Collections.sort(accounts, new Comparator<Account>() {
-            @Override
-            public int compare(Account o1, Account o2) {
-                return o1.getDuePayment().compareTo(o2.getDuePayment());
-            }
-        });
+        Collections.sort(accounts, (o1, o2) -> o1.getDuePayment().compareTo(o2.getDuePayment()));
     }
 
 

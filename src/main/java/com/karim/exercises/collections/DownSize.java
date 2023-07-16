@@ -1,15 +1,17 @@
 package com.karim.exercises.collections;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 public class DownSize {
     public static void downsize(List<String> list, int n) {
         int count = 1;
-        for(ListIterator<String> i = list.listIterator(); i.hasNext();count++) {
-            i.next();
+
+        for(Iterator<String> iterator = list.iterator(); iterator.hasNext();count++) {
+            iterator.next();
             if(count % n == 0) {
-                i.remove();
+                iterator.remove();
             }
         }
     }
